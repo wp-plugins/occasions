@@ -1,7 +1,7 @@
 === Occasions ===
 Contributors: Alphawolf
 Donate link: http://www.schloebe.de/donate/
-Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time, occasions
+Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time
 Requires at least: 2.5
 Tested up to: 2.7.1
 Stable tag: trunk
