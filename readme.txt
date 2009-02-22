@@ -60,4 +60,4 @@ This plugins is released under the GPL, you can use it free of charge on your pe
 
 [For screenshots see here](http://www.schloebe.de/wordpress/occasions-plugin/#screenshots)
 
-[More than that, there is a little screencast available!](http://www.schloebe.de/wordpress/occasionsd-plugin/screencast/)
+[More than that, there is a little screencast available!](http://www.schloebe.de/wordpress/occasions-plugin/screencast/)
