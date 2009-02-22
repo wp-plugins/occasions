@@ -1,11 +1,4 @@
 <?php
-/**
- * The main plugin file
- *
- * @package WordPress_Plugins
- * @subpackage Occasions
- */
- 
 /*
 Plugin Name: Occasions
 Version: 1.0
