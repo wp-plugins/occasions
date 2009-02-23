@@ -22,6 +22,29 @@ Do it like Google! Just like Google change their logos on certain occasions such
 * Supports changing location/ renaming of wp-content/ folder with WP 2.6
 * Entirely possible to be localized, including the JS calendar
 
+**Usage:**
+
+To display the list of current occasions, use:
+
+`<?php
+if( class_exists('Occasions') ) {
+  $Occasions->_output();
+}
+?>`
+
+To return the output of current occasions, e.g. to load into a variable, use:
+
+`<?php
+if( class_exists('Occasions') ) {
+   $occasionsoutput = $Occasions->_return();
+}
+?>`
+
+There is also a Shortcode available:
+
+`[Occasions]`
+
+
 **Included languages:**
 
 * English
