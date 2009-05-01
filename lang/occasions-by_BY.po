@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Occasions v1.0\n"
+"PO-Revision-Date: 2009-05-01 22:01+0300\n"
+"Last-Translator: Илья <mrilyuha@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_c\n"
+"X-Poedit-Basepath: ../\n"
+"POT-Creation-Date: \n"
+"Language-Team: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: authorplugins.inc.php:32
+msgid "Visit plugin homepage"
+msgstr "Наведайце хатнюю старонку плагіна"
+
+#: authorplugins.inc.php:35
+msgid "plugin"
+msgstr "плагін"
+
+#: authorplugins.inc.php:35
+msgid "Version"
+msgstr "Версія"
+
+#: authorplugins.inc.php:35
+msgid "Author"
+msgstr "Аўтар"
+
+#: occasions.php:196
+msgid "No occasions for today!"
+msgstr "Няма спраў на сёння!"
+
+#: occasions.php:216
+#: occasions.php:218
+#: occasions.php:485
+msgid "Occasions"
+msgstr "Справы"
+
+#: occasions.php:249
+msgid "Settings"
+msgstr "Наладкі"
+
+#: occasions.php:271
+msgid "Insert time"
+msgstr "Устанавіць час"
+
+#: occasions.php:271
+msgid "This will delete the dataset from the database. Continue?"
+msgstr "Гэта дазволіць выдаліць дадзеныя з базы дадзеных. Працягваць?"
+
+#: occasions.php:271
+msgid "Adding ..."
+msgstr "Дадаць ..."
+
+#: occasions.php:295
+#: occasions.php:305
+msgid "Title"
+msgstr "Назва"
+
+#: occasions.php:296
+#: occasions.php:306
+msgid "Startdate"
+msgstr "Дата пачатку"
+
+#: occasions.php:297
+#: occasions.php:307
+msgid "Enddate"
+msgstr "Дата заканчэння"
+
+#: occasions.php:298
+#: occasions.php:308
+msgid "Output Type"
+msgstr "Від заняткаў"
+
+#: occasions.php:299
+#: occasions.php:309
+msgid "Content"
+msgstr "Змест"
+
+#: occasions.php:327
+msgid "None yet"
+msgstr "Няма яшчэ"
+
+#: occasions.php:357
+#: occasions.php:563
+msgid "Add"
+msgstr "Дадаць"
+
+#: occasions.php:389
+msgid "Text"
+msgstr "Тэкс"
+
+#: occasions.php:390
+msgid "HTML"
+msgstr "HTML"
+
+#: occasions.php:499
+msgid "Settings saved."
+msgstr "Наладкі захаваны."
+
+#: occasions.php:530
+msgid "Occasions saved successfully."
+msgstr "Падзеі паспяхова захаваны."
+
+#: occasions.php:544
+msgid "Manage Occasions"
+msgstr "Кіраваць падзеямі"
+
+#: occasions.php:561
+msgid "<strong>Please note</strong> that you have to fill out all fields to successfully save or update a dataset!"
+msgstr "<strong>Звярніце ўвагу</strong>, што вы павіння запоўніць усе палі для паспяховага захавання ці аднаўлення дадзеных!"
+
+#: occasions.php:563
+msgid "Save Datasets"
+msgstr "Захаваць дадзеныя"
+
+#: occasions.php:572
+msgid "General Options"
+msgstr "Агульныя опцыі"
+
+#: occasions.php:580
+msgid "HTML to prepend to the output"
+msgstr "HTML для пераменнай з выходнай"
+
+#: occasions.php:583
+#: occasions.php:590
+#: occasions.php:597
+#: occasions.php:604
+#: occasions.php:611
+msgid "HTML is <strong>enabled</strong>."
+msgstr "HTML <strong>дазволіў</strong>."
+
+#: occasions.php:587
+msgid "HTML to append to the output"
+msgstr "HTML дадаць да выходнях"
+
+#: occasions.php:594
+msgid "HTML to prepend to each record"
+msgstr "HTML vor jedem Datensatz"
+
+#: occasions.php:597
+msgid "Parameters:"
+msgstr "Парамтрыr:"
+
+#: occasions.php:601
+msgid "HTML to append to each record"
+msgstr "HTML nach jedem Datensatz"
+
+#: occasions.php:608
+msgid "HTML to output if there are no current occasions"
+msgstr "HTML, wenn es keine aktuellen Anlässe gibt"
+
+#: occasions.php:618
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: occasions.php:628
+msgid "More of my WordPress plugins"
+msgstr "Больш з маіх  WordPress плагінаў"
+
+#: occasions.php:634
+msgid "You may also be interested in some of my other plugins:"
+msgstr "Вы таксама можаце зацікавіцца іншымі маімі плагінамі: "
+
+#: occasions.php:635
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "Паказаць іншыя плагіны гэтага аўтара &raquo;"
+
+#: occasions.php:647
+msgid "More information at: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+msgstr "Больш інфармацыі: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+
+#: occasions.php:657
+msgid "Help"
+msgstr "Дапамога"
+
+#: occasions.php:663
+msgid "If you are new using this plugin or dont understand what all these settings do, please read the documentation at <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
+msgstr "Калі вы пачатковец, альбо не разумееце, што рабіць з усімі гэтымі наладкамі, прачытайце, калі ласка, правілы на  <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
+
+#: occasions.php:664
+msgid "To output the occasions records, use the following code:"
+msgstr "Для вываду справаздач выкарыстоўвайце наступны код:"
+
+#: occasions.php:670
+msgid "To load the occasions records into a variable, use the following code:"
+msgstr "Для вываду запісаў у пераменную выкарыстоўвайце наступны код:"
+
+#: occasions.php:676
+msgid "There is also a shortcode available:"
+msgstr "Існуе таксама ў наяўнасці кароткі код:"
+

@@ -3,7 +3,7 @@ Contributors: Alphawolf
 Donate link: http://www.schloebe.de/donate/
 Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time
 Requires at least: 2.5
-Tested up to: 2.7.1
+Tested up to: 2.8
 Stable tag: trunk
 
 Do it like Google! Define any number of occasions in your BE with a fancy AJAX-Interface and the plugin will display them in time... just like Google.
@@ -49,6 +49,7 @@ There is also a Shortcode available:
 
 * English
 * German (de_DE) (Thanks to me ;-))
+* Belorussian (by_BY) (Thanks for contributing belorussian language goes to [Marcis Gasuns](http://www.fatcow.com))
 
 **Want update feeds, code documentation and more? Visit [extend.schloebe.de](http://extend.schloebe.de)**
 
