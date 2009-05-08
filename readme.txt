@@ -1,7 +1,7 @@
 === Occasions ===
 Contributors: Alphawolf
 Donate link: http://www.schloebe.de/donate/
-Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time
+Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time, doodle
 Requires at least: 2.5
 Tested up to: 2.8
 Stable tag: trunk
@@ -13,6 +13,10 @@ Do it like Google! Define any number of occasions in your BE with a fancy AJAX-I
 Do it like Google! Just like Google change their logos on certain occasions such as Christmas or New Year's Eve, the Occasions plugin offers the possibility to display text or HTML on specified dates. The occasions can be easily managed by a fancy and comfortable AJAX-Interface.
 
 [There's a little screencast available introducing what the plugin does!](http://www.schloebe.de/wordpress/occasions-plugin/screencast/)
+
+**Changelog:**
+
+*08.05.2009 - version 1.0.1* - Changed database collation to fix issues on a few systems
 
 **Features:**
 
