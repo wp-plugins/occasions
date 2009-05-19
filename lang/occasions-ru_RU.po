@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Occasions v1.0\n"
+"PO-Revision-Date: 2009-05-16 01:53+0300\n"
+"Last-Translator: Илья <mrilyuha@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_c\n"
+"X-Poedit-Basepath: ../\n"
+"POT-Creation-Date: \n"
+"Language-Team: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: authorplugins.inc.php:32
+msgid "Visit plugin homepage"
+msgstr "Посетите домашнюю страницу плагина"
+
+#: authorplugins.inc.php:35
+msgid "plugin"
+msgstr "плагин"
+
+#: authorplugins.inc.php:35
+msgid "Version"
+msgstr "Версия"
+
+#: authorplugins.inc.php:35
+msgid "Author"
+msgstr "Автор"
+
+#: occasions.php:196
+msgid "No occasions for today!"
+msgstr "Нет дел на сегодня!"
+
+#: occasions.php:216
+#: occasions.php:218
+#: occasions.php:485
+msgid "Occasions"
+msgstr "Дела"
+
+#: occasions.php:249
+msgid "Settings"
+msgstr "Настройки"
+
+#: occasions.php:271
+msgid "Insert time"
+msgstr "Назначить время"
+
+#: occasions.php:271
+msgid "This will delete the dataset from the database. Continue?"
+msgstr "Это разрешит удалить данные с базы данных. Продолжать?"
+
+#: occasions.php:271
+msgid "Adding ..."
+msgstr "Добавить ..."
+
+#: occasions.php:295
+#: occasions.php:305
+msgid "Title"
+msgstr "Название"
+
+#: occasions.php:296
+#: occasions.php:306
+msgid "Startdate"
+msgstr "Дата начала"
+
+#: occasions.php:297
+#: occasions.php:307
+msgid "Enddate"
+msgstr "Дата окончания"
+
+#: occasions.php:298
+#: occasions.php:308
+msgid "Output Type"
+msgstr "Вид занятий"
+
+#: occasions.php:299
+#: occasions.php:309
+msgid "Content"
+msgstr "Оглавление"
+
+#: occasions.php:327
+msgid "None yet"
+msgstr "Еще нет"
+
+#: occasions.php:357
+#: occasions.php:563
+msgid "Add"
+msgstr "Добавить"
+
+#: occasions.php:389
+msgid "Text"
+msgstr "Тэкс"
+
+#: occasions.php:390
+msgid "HTML"
+msgstr "HTML"
+
+#: occasions.php:499
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: occasions.php:530
+msgid "Occasions saved successfully."
+msgstr "События успешно сохранены."
+
+#: occasions.php:544
+msgid "Manage Occasions"
+msgstr "Управлять событиями"
+
+#: occasions.php:561
+msgid "<strong>Please note</strong> that you have to fill out all fields to successfully save or update a dataset!"
+msgstr "<strong>Обратите внимание</strong>, что вы должны заполнить все поля для успешного сохранения или восстановления данных!"
+
+#: occasions.php:563
+msgid "Save Datasets"
+msgstr "Сохранить данные"
+
+#: occasions.php:572
+msgid "General Options"
+msgstr "Общие опции"
+
+#: occasions.php:580
+msgid "HTML to prepend to the output"
+msgstr "HTML для переменной с выходной"
+
+#: occasions.php:583
+#: occasions.php:590
+#: occasions.php:597
+#: occasions.php:604
+#: occasions.php:611
+msgid "HTML is <strong>enabled</strong>."
+msgstr "HTML <strong>разрешено</strong>."
+
+#: occasions.php:587
+msgid "HTML to append to the output"
+msgstr "HTML добавить к выходу"
+
+#: occasions.php:594
+msgid "HTML to prepend to each record"
+msgstr "HTML добавляется к каждой записи"
+
+#: occasions.php:597
+msgid "Parameters:"
+msgstr "Параметры:"
+
+#: occasions.php:601
+msgid "HTML to append to each record"
+msgstr "HTML добавляется к каждой записи"
+
+#: occasions.php:608
+msgid "HTML to output if there are no current occasions"
+msgstr "HTML, wenn es keine aktuellen Anl?sse gibt"
+
+#: occasions.php:618
+msgid "Save Changes"
+msgstr "Сохранить настройки"
+
+#: occasions.php:628
+msgid "More of my WordPress plugins"
+msgstr "Более с моих  WordPress плагинов"
+
+#: occasions.php:634
+msgid "You may also be interested in some of my other plugins:"
+msgstr "Вы также можете заинтересоваться другими моими плагинами: "
+
+#: occasions.php:635
+msgid "Show other plugins by this author inline &raquo;"
+msgstr "Показать другие плагины этого автора &raquo;"
+
+#: occasions.php:647
+msgid "More information at: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+msgstr "Больше информации: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
+
+#: occasions.php:657
+msgid "Help"
+msgstr "Помощь"
+
+#: occasions.php:663
+msgid "If you are new using this plugin or dont understand what all these settings do, please read the documentation at <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
+msgstr "Если вы новичок либо не понимаете, что делать с всеми этими настройками, прочтите, пожалуйста, правила на <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
+
+#: occasions.php:664
+msgid "To output the occasions records, use the following code:"
+msgstr "Для вывода отчетов используйте следующий код:"
+
+#: occasions.php:670
+msgid "To load the occasions records into a variable, use the following code:"
+msgstr "Для вывода записей в переменную используйте следующий код:"
+
+#: occasions.php:676
+msgid "There is also a shortcode available:"
+msgstr "Существует также в наличии короткий код:"
+

@@ -54,6 +54,7 @@ There is also a Shortcode available:
 * English
 * German (de_DE) (Thanks to me ;-))
 * Belorussian (by_BY) (Thanks for contributing belorussian language goes to [Marcis Gasuns](http://www.fatcow.com))
+* Russian (ru_RU) (Thanks for contributing russian language goes to [Thomas Gorny](http://www.ipower.com))
 
 **Want update feeds, code documentation and more? Visit [extend.schloebe.de](http://extend.schloebe.de)**
 
