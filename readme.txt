@@ -3,7 +3,7 @@ Contributors: Alphawolf
 Donate link: http://www.schloebe.de/donate/
 Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time, doodle, event management, events
 Requires at least: 2.5
-Tested up to: 2.9.2
+Tested up to: 3.0
 Stable tag: trunk
 
 Do it like Google! Define any number of occasions in your BE with a fancy AJAX-Interface and the plugin will display them in time... just like Google.
