@@ -14,10 +14,6 @@ Do it like Google! Just like Google change their logos on certain occasions such
 
 [vimeo http://vimeo.com/9598898]
 
-**Changelog:**
-
-*08.05.2009 - version 1.0.1* - Changed database collation to fix issues on a few systems
-
 **Features:**
 
 * "Date dependencies" on chosing start and end dates
@@ -79,15 +75,13 @@ Please visit [the official website](http://www.schloebe.de/wordpress/occasions-p
 3. Activate the plugin from your WordPress admin panel.
 4. Installation finished.
 
-== Upgrade Notice ==
-
-= 1.0.2 =
-* Maintenance Release
-
 == Changelog ==
 
 = 1.0.2 =
 * Maintenance Release
+
+= 1.0.1 =
+* Changed database collation to fix issues on a few systems
 
 == Other Notes ==
 
