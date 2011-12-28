@@ -1,8 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Occasions v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: 2009-02-22 20:19+0100\n"
 "Last-Translator: Oliver Schlöbe <scripts@schloebe.de>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,187 +13,231 @@ msgstr ""
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_c\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
 "X-Poedit-Basepath: ../\n"
-"X-Poedit-SearchPath-0: ."
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
 
 #: authorplugins.inc.php:32
+#@ default
 msgid "Visit plugin homepage"
 msgstr "Besuche die Plugin-Homepage"
 
 #: authorplugins.inc.php:35
+#@ default
 msgid "plugin"
 msgstr "Plugin"
 
 #: authorplugins.inc.php:35
+#@ default
 msgid "Version"
 msgstr "Version"
 
 #: authorplugins.inc.php:35
+#@ default
 msgid "Author"
 msgstr "Autor"
 
-#: occasions.php:196
+#: occasions.php:200
+#@ occasions
 msgid "No occasions for today!"
 msgstr "Keine heutigen Anlässe!"
 
-#: occasions.php:216
-#: occasions.php:218
-#: occasions.php:485
+#: occasions.php:220
+#: occasions.php:222
+#: occasions.php:489
+#@ occasions
 msgid "Occasions"
 msgstr "Anlässe"
 
-#: occasions.php:249
+#: occasions.php:253
+#@ default
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: occasions.php:271
+#: occasions.php:275
+#@ default
 msgid "Insert time"
 msgstr "Zeit einfügen"
 
-#: occasions.php:271
+#: occasions.php:275
+#@ occasions
 msgid "This will delete the dataset from the database. Continue?"
 msgstr "Datensatz wird unwiderruflich aus der Datenbank entfernt. Wirklich fortfahren?"
 
-#: occasions.php:271
+#: occasions.php:275
+#@ occasions
 msgid "Adding ..."
 msgstr "Füge hinzu ..."
 
-#: occasions.php:295
-#: occasions.php:305
+#: occasions.php:299
+#: occasions.php:309
+#@ occasions
 msgid "Title"
 msgstr "Titel"
 
-#: occasions.php:296
-#: occasions.php:306
+#: occasions.php:300
+#: occasions.php:310
+#@ occasions
 msgid "Startdate"
 msgstr "Startdatum"
 
-#: occasions.php:297
-#: occasions.php:307
+#: occasions.php:301
+#: occasions.php:311
+#@ occasions
 msgid "Enddate"
 msgstr "Enddatum"
 
-#: occasions.php:298
-#: occasions.php:308
+#: occasions.php:302
+#: occasions.php:312
+#@ occasions
 msgid "Output Type"
 msgstr "Ausgabetyp"
 
-#: occasions.php:299
-#: occasions.php:309
+#: occasions.php:303
+#: occasions.php:313
+#@ occasions
 msgid "Content"
 msgstr "Inhalt"
 
-#: occasions.php:327
+#: occasions.php:331
+#@ occasions
 msgid "None yet"
 msgstr "Noch keine"
 
-#: occasions.php:357
-#: occasions.php:563
+#: occasions.php:361
+#: occasions.php:569
+#@ occasions
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: occasions.php:389
+#: occasions.php:393
+#@ occasions
 msgid "Text"
 msgstr "Text"
 
-#: occasions.php:390
+#: occasions.php:394
+#@ occasions
 msgid "HTML"
 msgstr "HTML"
 
-#: occasions.php:499
+#: occasions.php:503
+#@ occasions
 msgid "Settings saved."
 msgstr "Einstellungen gespeichert."
 
-#: occasions.php:530
+#: occasions.php:536
+#@ occasions
 msgid "Occasions saved successfully."
 msgstr "Anlässe erfolgreich gespeichert."
 
-#: occasions.php:544
+#: occasions.php:550
+#@ occasions
 msgid "Manage Occasions"
 msgstr "Anlässe verwalten"
 
-#: occasions.php:561
+#: occasions.php:567
+#@ occasions
 msgid "<strong>Please note</strong> that you have to fill out all fields to successfully save or update a dataset!"
 msgstr "<strong>Bitten beachten</strong>, dass alle Felder ausgefüllt sein müssen, damit ein (neuer) Datensatz gespeichert wird."
 
-#: occasions.php:563
+#: occasions.php:569
+#@ occasions
 msgid "Save Datasets"
 msgstr "Datensätze speichern"
 
-#: occasions.php:572
+#: occasions.php:578
+#@ occasions
 msgid "General Options"
 msgstr "Allgemeine Optionen"
 
-#: occasions.php:580
+#: occasions.php:586
+#@ occasions
 msgid "HTML to prepend to the output"
 msgstr "HTML nach der gesamten Ausgabe"
 
-#: occasions.php:583
-#: occasions.php:590
-#: occasions.php:597
-#: occasions.php:604
-#: occasions.php:611
+#: occasions.php:589
+#: occasions.php:596
+#: occasions.php:603
+#: occasions.php:610
+#: occasions.php:617
+#@ occasions
 msgid "HTML is <strong>enabled</strong>."
 msgstr "HTML ist <strong>erlaubt</strong>."
 
-#: occasions.php:587
+#: occasions.php:593
+#@ occasions
 msgid "HTML to append to the output"
 msgstr "HTML vor der gesamten Ausgabe"
 
-#: occasions.php:594
+#: occasions.php:600
+#@ occasions
 msgid "HTML to prepend to each record"
 msgstr "HTML vor jedem Datensatz"
 
-#: occasions.php:597
+#: occasions.php:603
+#@ occasions
 msgid "Parameters:"
 msgstr "Parameter:"
 
-#: occasions.php:601
+#: occasions.php:607
+#@ occasions
 msgid "HTML to append to each record"
 msgstr "HTML nach jedem Datensatz"
 
-#: occasions.php:608
+#: occasions.php:614
+#@ occasions
 msgid "HTML to output if there are no current occasions"
 msgstr "HTML, wenn es keine aktuellen Anlässe gibt"
 
-#: occasions.php:618
+#: occasions.php:624
+#@ default
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
-#: occasions.php:628
+#: occasions.php:634
+#@ occasions
 msgid "More of my WordPress plugins"
 msgstr "Weitere meiner WordPress Plugins"
 
-#: occasions.php:634
+#: occasions.php:640
+#@ occasions
 msgid "You may also be interested in some of my other plugins:"
 msgstr "Es könnten Sie ebenfalls einige meiner weiteren Plugins interessieren: "
 
-#: occasions.php:635
+#: occasions.php:641
+#@ occasions
 msgid "Show other plugins by this author inline &raquo;"
 msgstr "Weitere Plugins dieses Autors zeigen &raquo;"
 
-#: occasions.php:647
+#: occasions.php:653
+#@ occasions
 msgid "More information at: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
 msgstr "Weitere Informationen: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
 
-#: occasions.php:657
+#: occasions.php:663
+#@ occasions
 msgid "Help"
 msgstr "Hilfe"
 
-#: occasions.php:663
+#: occasions.php:669
+#@ occasions
 msgid "If you are new using this plugin or dont understand what all these settings do, please read the documentation at <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
 msgstr "Falls Sie dieses Plugin zum ersten Mal benutzen und nicht wissen, was all diese Optionen machen, schauen Sie bitte in die Dokumentation auf <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
 
-#: occasions.php:664
+#: occasions.php:670
+#@ occasions
 msgid "To output the occasions records, use the following code:"
 msgstr "Um die Anlässe-Datensätze auszugeben, verwenden Sie den folgenden Code:"
 
-#: occasions.php:670
+#: occasions.php:676
+#@ occasions
 msgid "To load the occasions records into a variable, use the following code:"
 msgstr "Um die Anlässe-Datensätze in eine Variable zu laden, verwenden Sie den folgenden Code:"
 
-#: occasions.php:676
+#: occasions.php:682
+#@ occasions
 msgid "There is also a shortcode available:"
 msgstr "Es gibt auch einen Shortcode:"
 

@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Occasions
-Version: 1.0.1
+Version: 1.0.2
 Plugin URI: http://www.schloebe.de/wordpress/occasions-plugin/
 Description: <strong>WordPress 2.5+ only.</strong> Do it like Google! Define any number of occasions in your BE with a fancy AJAX-Interface and the plugin will display them in time... just like Google.
 Author: Oliver Schl&ouml;be
 Author URI: http://www.schloebe.de/
 
 
-Copyright 2009 Oliver Schloebe (email : scripts@schloebe.de)
+Copyright 2009-2012 Oliver Schloebe (email : scripts@schloebe.de)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -48,7 +48,7 @@ if ( !defined( 'WP_PLUGIN_DIR' ) )
 /**
  * Define the plugin version
  */
-define("OCC_VERSION", "1.0.1");
+define("OCC_VERSION", "1.0.2");
 
 /**
  * Define the plugin path slug
@@ -124,7 +124,8 @@ class Occasions {
 		if ( is_admin() ) {
 			add_action('admin_menu', array(&$this, 'occ_add_optionpage'));
 			add_filter('plugin_action_links', array(&$this, 'occ_filter_plugin_actions'), 10, 2);
-			add_action('activate_' . plugin_basename(__FILE__), array(&$this, 'occ_setup'));
+			//add_action('activate_' . plugin_basename(__FILE__), array(&$this, 'occ_setup'));
+			register_activation_hook( __FILE__, array(&$this, 'occ_setup') );
 			if ( basename($_SERVER['REQUEST_URI']) == 'occasions.php' ) {
 				add_action('admin_print_scripts', array(&$this, 'occ_js_header'));
 			}
@@ -138,7 +139,7 @@ class Occasions {
 		if( version_compare($GLOBALS['wp_version'], '2.4.999', '>') && function_exists('add_shortcode') ) {
 			add_shortcode('Occasions', array(&$this, 'occ_tag_func'));
 		}
-		if ( class_exists('WPlize') === false ) {
+		if ( !class_exists('WPlize') ) {
 			require_once(OCC_PLUGINFULLDIR . 'inc/wplize.class.php');
 		}
 		$GLOBALS['OCCWPLIZE'] = new WPlize('occ_options');
@@ -169,28 +170,26 @@ class Occasions {
  	*/
 	function occ_setup() {
 		global $wpdb;
-		$occ_db_version = '1.0.1';
+		$occ_db_version = '1.0.2';
 		
 		$collate = "";
 		if( $wpdb->supports_collation() ) {
-			if(!empty($wpdb->charset)) $collate = "DEFAULT CHARACTER SET " . $wpdb->charset;
-			if(!empty($wpdb->collate)) $collate .= " COLLATE " . $wpdb->collate;
+			if(!empty($wpdb->charset)) $collate = "DEFAULT CHARACTER SET `" . $wpdb->charset . "`";
+			if(!empty($wpdb->collate)) $collate .= " COLLATE `" . $wpdb->collate . "`";
 		}
 		
 		$table_name = $wpdb->prefix . "occasions";
-		if( $wpdb->get_var("SHOW TABLES LIKE '" . $table_name . "'") != $table_name ) {
-			$sql = "CREATE TABLE IF NOT EXISTS `" . $table_name . "` (
-  				`id` int(3) unsigned NOT NULL,
-  				`title` text NOT NULL,
-  				`date_start` int(11) NOT NULL,
-  				`date_end` int(11) NOT NULL,
-  				`type` int(1) NOT NULL,
-  				`content` text NOT NULL,
-  				PRIMARY KEY  (`id`)
-			) " . $collate . ";";
-			require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
-			dbDelta( $sql );
-		}
+		$sql = "CREATE TABLE IF NOT EXISTS `" . $table_name . "` (
+			`id` int(3) unsigned NOT NULL,
+			`title` text NOT NULL,
+			`date_start` int(11) NOT NULL,
+			`date_end` int(11) NOT NULL,
+			`type` int(1) NOT NULL,
+			`content` text NOT NULL,
+			PRIMARY KEY  (`id`)
+		);";
+		require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+		dbDelta( $sql );
 		
 		$occ_options = array(
 							'occ_db_version' => $occ_db_version,
@@ -511,23 +510,25 @@ OccasionsAjaxL10n = {
 			</div><br />';
 		}
 		if ( isset($_POST) === true && isset($_POST['action']) === true && $_POST['action'] == 'saveoccasions' ) {
-			foreach ($_POST['nodes'] as $value) {
+			foreach( $_POST['nodes'] as $value ) {
 				$count = intval($value);
 				
 				if( $_POST['occ_title' . $count] != '' && $_POST['occ_startdate' . $count] != '' && $_POST['occ_enddate' . $count] != '' && $_POST['occ_content' . $count] != '' ) {
-				$startdate_parts = explode('.', $_POST['occ_startdate' . $count]);
-				$enddate_parts = explode('.', $_POST['occ_enddate' . $count]);
-				$startdate = gmmktime(0, 0, 0, $startdate_parts[1], $startdate_parts[0], gmdate('Y'));
-				$enddate = gmmktime(0, 0, 0, $enddate_parts[1], $enddate_parts[0], gmdate('Y'));
-				$dataset_exists = $wpdb->get_var( $wpdb->prepare("SELECT COUNT(id) FROM " . $wpdb->prefix . "occasions WHERE id=%d", $count) );
-				if( $dataset_exists >= 1 ) {
-					$wpdb->query( $wpdb->prepare("UPDATE " . $wpdb->prefix . "occasions SET id=%d, title=%s, date_start=%d, date_end=%d, type=%d, content=%s WHERE id=%d", $count, $_POST['occ_title' . $count], $startdate, $enddate, $_POST['occ_type' . $count], $_POST['occ_content' . $count], $count ) );
-				} else {
-					$wpdb->query( $wpdb->prepare("INSERT INTO " . $wpdb->prefix . "occasions ( id, title, date_start, date_end, type, content ) VALUES( %s, %s, %d, %d, %d, %s )", $count, $_POST['occ_title' . $count], $startdate, $enddate, $_POST['occ_type' . $count], $_POST['occ_content' . $count]) );
+					$startdate_parts = explode('.', $_POST['occ_startdate' . $count]);
+					$enddate_parts = explode('.', $_POST['occ_enddate' . $count]);
+					$startdate = gmmktime(0, 0, 0, $startdate_parts[1], $startdate_parts[0], gmdate('Y'));
+					$enddate = gmmktime(0, 0, 0, $enddate_parts[1], $enddate_parts[0], gmdate('Y'));
+					$dataset_exists = $wpdb->get_var( $wpdb->prepare("SELECT COUNT(id) FROM " . $wpdb->prefix . "occasions WHERE id=%d", $count) );
+					if( $dataset_exists >= 1 ) {
+						$wpdb->query( $wpdb->prepare("UPDATE " . $wpdb->prefix . "occasions SET id=%d, title=%s, date_start=%d, date_end=%d, type=%d, content=%s WHERE id=%d", $count, $_POST['occ_title' . $count], $startdate, $enddate, $_POST['occ_type' . $count], $_POST['occ_content' . $count], $count ) );
+					} else {
+						$wpdb->query( $wpdb->prepare("INSERT INTO " . $wpdb->prefix . "occasions ( id, title, date_start, date_end, type, content ) VALUES( %s, %s, %d, %d, %d, %s )", $count, $_POST['occ_title' . $count], $startdate, $enddate, $_POST['occ_type' . $count], $_POST['occ_content' . $count]) );
+					}
 				}
+				if( WP_DEBUG ) {
+					$wpdb->show_errors();
+					$wpdb->print_error();
 				}
-				//$wpdb->show_errors();
-				//$wpdb->print_error();
 				
 			}
 			$wpdb->flush();
