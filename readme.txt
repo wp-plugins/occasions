@@ -12,6 +12,8 @@ Do it like Google! Define any number of occasions in your BE with a fancy AJAX-I
 
 Do it like Google! Just like Google change their logos on certain occasions such as Christmas or New Year's Eve, the Occasions plugin offers the possibility to display text or HTML on specified dates. The occasions can be easily managed by a fancy and comfortable AJAX-Interface.
 
+[Developer on Google+](https://plus.google.com/100776016153395792354 "Developer on Google+") | [Developer on Twitter](http://twitter.com/wpseek "Developer on Twitter")
+
 [vimeo http://vimeo.com/9598898]
 
 **Features:**
