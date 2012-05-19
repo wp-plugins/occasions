@@ -211,33 +211,33 @@ msgstr "Es könnten Sie ebenfalls einige meiner weiteren Plugins interessieren: 
 msgid "Show other plugins by this author inline &raquo;"
 msgstr "Weitere Plugins dieses Autors zeigen &raquo;"
 
-#: occasions.php:653
-#@ occasions
-msgid "More information at: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
-msgstr "Weitere Informationen: <a href=\"http://extend.schloebe.de\" target=\"_blank\">http://extend.schloebe.de</a>"
-
-#: occasions.php:663
+#: occasions.php:664
 #@ occasions
 msgid "Help"
 msgstr "Hilfe"
 
-#: occasions.php:669
+#: occasions.php:670
 #@ occasions
 msgid "If you are new using this plugin or dont understand what all these settings do, please read the documentation at <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
 msgstr "Falls Sie dieses Plugin zum ersten Mal benutzen und nicht wissen, was all diese Optionen machen, schauen Sie bitte in die Dokumentation auf <a href=\"http://www.schloebe.de/wordpress/occasions-plugin/\" target=\"_blank\">http://www.schloebe.de/wordpress/occasions-plugin/</a>"
 
-#: occasions.php:670
+#: occasions.php:671
 #@ occasions
 msgid "To output the occasions records, use the following code:"
 msgstr "Um die Anlässe-Datensätze auszugeben, verwenden Sie den folgenden Code:"
 
-#: occasions.php:676
+#: occasions.php:677
 #@ occasions
 msgid "To load the occasions records into a variable, use the following code:"
 msgstr "Um die Anlässe-Datensätze in eine Variable zu laden, verwenden Sie den folgenden Code:"
 
-#: occasions.php:682
+#: occasions.php:683
 #@ occasions
 msgid "There is also a shortcode available:"
 msgstr "Es gibt auch einen Shortcode:"
+
+#: occasions.php:654
+#@ occasions
+msgid "More plugins at: <a class=\"button rbutton\" href=\"http://www.schloebe.de/portfolio/\" target=\"_blank\">www.schloebe.de</a>"
+msgstr "Mehr Plugins auf: <a class=\"button rbutton\" href=\"http://www.schloebe.de/portfolio/\" target=\"_blank\">www.schloebe.de</a>"
 
