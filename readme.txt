@@ -3,8 +3,10 @@ Contributors: Alphawolf
 Donate link: http://www.schloebe.de/donate/
 Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time, doodle, event management, events
 Requires at least: 2.5
-Tested up to: 3.4
+Tested up to: 3.5
 Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Do it like Google! Define any number of occasions in your BE with a fancy AJAX-Interface and the plugin will display them in time... just like Google.
 
@@ -78,6 +80,10 @@ Please visit [the official website](http://www.schloebe.de/wordpress/occasions-p
 4. Installation finished.
 
 == Changelog ==
+
+= 1.0.4 =
+* Readme.txt updated to be more compliant with the readme.txt standard
+* Moved screenshots off the package to the assets/ folder
 
 = 1.0.3 =
 * Maintenance Release
