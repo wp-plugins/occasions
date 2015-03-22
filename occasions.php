@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Occasions
-Version: 1.0.4
+Version: 1.1
 Plugin URI: http://www.schloebe.de/wordpress/occasions-plugin/
 Description: <strong>WordPress 2.5+ only.</strong> Do it like Google! Define any number of occasions in your BE with a fancy AJAX-Interface and the plugin will display them in time... just like Google.
 Author: Oliver Schl&ouml;be
 Author URI: http://www.schloebe.de/
 
 
-Copyright 2009-2012 Oliver Schloebe (email : scripts@schloebe.de)
+Copyright 2009-2015 Oliver Schloebe (email : scripts@schloebe.de)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -48,7 +48,7 @@ if ( !defined( 'WP_PLUGIN_DIR' ) )
 /**
  * Define the plugin version
  */
-define("OCC_VERSION", "1.0.4");
+define("OCC_VERSION", "1.1");
 
 /**
  * Define the plugin path slug

@@ -3,7 +3,7 @@ Contributors: Alphawolf
 Donate link: http://www.schloebe.de/donate/
 Tags: admin, ajax, management, cms, occasion, plugin, inline, google, time, doodle, event management, events
 Requires at least: 2.5
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -57,6 +57,7 @@ There is also a Shortcode available:
 * German (de_DE) (Thanks to me ;-))
 * Belorussian (by_BY) (Thanks for contributing belorussian language goes to [Marcis Gasuns](http://www.fatcow.com))
 * Russian (ru_RU) (Thanks for contributing russian language goes to [Thomas Gorny](http://www.ipower.com))
+* Hebrew (he_IL) (Thanks for contributing hebrew language goes to Atar4U / https://profiles.wordpress.org/ahrale/)
 
 **Looking for more WordPress plugins? Visit [www.schloebe.de/portfolio/](http://www.schloebe.de/portfolio/)**
 
@@ -82,6 +83,9 @@ Please visit [the official website](http://www.schloebe.de/wordpress/occasions-p
 4. Installation finished.
 
 == Changelog ==
+
+= 1.1 =
+* Added hebrew localization (Thanks to Atar4U)
 
 = 1.0.4 =
 * Readme.txt updated to be more compliant with the readme.txt standard
